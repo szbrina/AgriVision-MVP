@@ -3,6 +3,7 @@
 //  AgriVision-MVP
 //
 //  Created by Sabrina on 8/19/22.
+// reminder need new viewcontroller file at top per each!
 //
 
 import UIKit
