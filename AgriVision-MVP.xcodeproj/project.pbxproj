@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046E1C6E28AFFEFF007E6588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C6D28AFFEFF007E6588 /* AppDelegate.swift */; };
+		046E1C7028AFFEFF007E6588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C6F28AFFEFF007E6588 /* SceneDelegate.swift */; };
+		046E1C7228AFFEFF007E6588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C7128AFFEFF007E6588 /* ViewController.swift */; };
+		046E1C7528AFFEFF007E6588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E1C7328AFFEFF007E6588 /* Main.storyboard */; };
+		046E1C7828AFFEFF007E6588 /* AgriVision_MVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C7628AFFEFF007E6588 /* AgriVision_MVP.xcdatamodeld */; };
+		046E1C7A28AFFF04007E6588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E1C7928AFFF04007E6588 /* Assets.xcassets */; };
+		046E1C7D28AFFF04007E6588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E1C7B28AFFF04007E6588 /* LaunchScreen.storyboard */; };
+		046E1C8828AFFF05007E6588 /* AgriVision_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C8728AFFF05007E6588 /* AgriVision_MVPTests.swift */; };
+		046E1C9228AFFF05007E6588 /* AgriVision_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C9128AFFF05007E6588 /* AgriVision_MVPUITests.swift */; };
+		046E1C9428AFFF05007E6588 /* AgriVision_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E1C9328AFFF05007E6588 /* AgriVision_MVPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046E1C8428AFFF05007E6588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E1C6228AFFEFF007E6588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046E1C6928AFFEFF007E6588;
+			remoteInfo = "AgriVision-MVP";
+		};
+		046E1C8E28AFFF05007E6588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E1C6228AFFEFF007E6588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046E1C6928AFFEFF007E6588;
+			remoteInfo = "AgriVision-MVP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046E1C6A28AFFEFF007E6588 /* AgriVision-MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AgriVision-MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E1C6D28AFFEFF007E6588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046E1C6F28AFFEFF007E6588 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046E1C7128AFFEFF007E6588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046E1C7428AFFEFF007E6588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046E1C7728AFFEFF007E6588 /* AgriVision_MVP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgriVision_MVP.xcdatamodel; sourceTree = "<group>"; };
+		046E1C7928AFFF04007E6588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046E1C7C28AFFF04007E6588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046E1C7E28AFFF04007E6588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E1C8328AFFF05007E6588 /* AgriVision-MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AgriVision-MVPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E1C8728AFFF05007E6588 /* AgriVision_MVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriVision_MVPTests.swift; sourceTree = "<group>"; };
+		046E1C8D28AFFF05007E6588 /* AgriVision-MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AgriVision-MVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E1C9128AFFF05007E6588 /* AgriVision_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriVision_MVPUITests.swift; sourceTree = "<group>"; };
+		046E1C9328AFFF05007E6588 /* AgriVision_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriVision_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046E1C6728AFFEFF007E6588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E1C8028AFFF05007E6588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E1C8A28AFFF05007E6588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046E1C6128AFFEFF007E6588 = {
+			isa = PBXGroup;
+			children = (
+				046E1C6C28AFFEFF007E6588 /* AgriVision-MVP */,
+				046E1C8628AFFF05007E6588 /* AgriVision-MVPTests */,
+				046E1C9028AFFF05007E6588 /* AgriVision-MVPUITests */,
+				046E1C6B28AFFEFF007E6588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046E1C6B28AFFEFF007E6588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046E1C6A28AFFEFF007E6588 /* AgriVision-MVP.app */,
+				046E1C8328AFFF05007E6588 /* AgriVision-MVPTests.xctest */,
+				046E1C8D28AFFF05007E6588 /* AgriVision-MVPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046E1C6C28AFFEFF007E6588 /* AgriVision-MVP */ = {
+			isa = PBXGroup;
+			children = (
+				046E1C6D28AFFEFF007E6588 /* AppDelegate.swift */,
+				046E1C6F28AFFEFF007E6588 /* SceneDelegate.swift */,
+				046E1C7128AFFEFF007E6588 /* ViewController.swift */,
+				046E1C7328AFFEFF007E6588 /* Main.storyboard */,
+				046E1C7928AFFF04007E6588 /* Assets.xcassets */,
+				046E1C7B28AFFF04007E6588 /* LaunchScreen.storyboard */,
+				046E1C7E28AFFF04007E6588 /* Info.plist */,
+				046E1C7628AFFEFF007E6588 /* AgriVision_MVP.xcdatamodeld */,
+			);
+			path = "AgriVision-MVP";
+			sourceTree = "<group>";
+		};
+		046E1C8628AFFF05007E6588 /* AgriVision-MVPTests */ = {
+			isa = PBXGroup;
+			children = (
+				046E1C8728AFFF05007E6588 /* AgriVision_MVPTests.swift */,
+			);
+			path = "AgriVision-MVPTests";
+			sourceTree = "<group>";
+		};
+		046E1C9028AFFF05007E6588 /* AgriVision-MVPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046E1C9128AFFF05007E6588 /* AgriVision_MVPUITests.swift */,
+				046E1C9328AFFF05007E6588 /* AgriVision_MVPUITestsLaunchTests.swift */,
+			);
+			path = "AgriVision-MVPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046E1C6928AFFEFF007E6588 /* AgriVision-MVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E1C9728AFFF05007E6588 /* Build configuration list for PBXNativeTarget "AgriVision-MVP" */;
+			buildPhases = (
+				046E1C6628AFFEFF007E6588 /* Sources */,
+				046E1C6728AFFEFF007E6588 /* Frameworks */,
+				046E1C6828AFFEFF007E6588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AgriVision-MVP";
+			productName = "AgriVision-MVP";
+			productReference = 046E1C6A28AFFEFF007E6588 /* AgriVision-MVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046E1C8228AFFF05007E6588 /* AgriVision-MVPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E1C9A28AFFF05007E6588 /* Build configuration list for PBXNativeTarget "AgriVision-MVPTests" */;
+			buildPhases = (
+				046E1C7F28AFFF05007E6588 /* Sources */,
+				046E1C8028AFFF05007E6588 /* Frameworks */,
+				046E1C8128AFFF05007E6588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046E1C8528AFFF05007E6588 /* PBXTargetDependency */,
+			);
+			name = "AgriVision-MVPTests";
+			productName = "AgriVision-MVPTests";
+			productReference = 046E1C8328AFFF05007E6588 /* AgriVision-MVPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046E1C8C28AFFF05007E6588 /* AgriVision-MVPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E1C9D28AFFF05007E6588 /* Build configuration list for PBXNativeTarget "AgriVision-MVPUITests" */;
+			buildPhases = (
+				046E1C8928AFFF05007E6588 /* Sources */,
+				046E1C8A28AFFF05007E6588 /* Frameworks */,
+				046E1C8B28AFFF05007E6588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046E1C8F28AFFF05007E6588 /* PBXTargetDependency */,
+			);
+			name = "AgriVision-MVPUITests";
+			productName = "AgriVision-MVPUITests";
+			productReference = 046E1C8D28AFFF05007E6588 /* AgriVision-MVPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046E1C6228AFFEFF007E6588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					046E1C6928AFFEFF007E6588 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					046E1C8228AFFF05007E6588 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 046E1C6928AFFEFF007E6588;
+					};
+					046E1C8C28AFFF05007E6588 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 046E1C6928AFFEFF007E6588;
+					};
+				};
+			};
+			buildConfigurationList = 046E1C6528AFFEFF007E6588 /* Build configuration list for PBXProject "AgriVision-MVP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046E1C6128AFFEFF007E6588;
+			productRefGroup = 046E1C6B28AFFEFF007E6588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046E1C6928AFFEFF007E6588 /* AgriVision-MVP */,
+				046E1C8228AFFF05007E6588 /* AgriVision-MVPTests */,
+				046E1C8C28AFFF05007E6588 /* AgriVision-MVPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046E1C6828AFFEFF007E6588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E1C7D28AFFF04007E6588 /* LaunchScreen.storyboard in Resources */,
+				046E1C7A28AFFF04007E6588 /* Assets.xcassets in Resources */,
+				046E1C7528AFFEFF007E6588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E1C8128AFFF05007E6588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E1C8B28AFFF05007E6588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E1C6628AFFEFF007E6588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E1C7828AFFEFF007E6588 /* AgriVision_MVP.xcdatamodeld in Sources */,
+				046E1C7228AFFEFF007E6588 /* ViewController.swift in Sources */,
+				046E1C6E28AFFEFF007E6588 /* AppDelegate.swift in Sources */,
+				046E1C7028AFFEFF007E6588 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E1C7F28AFFF05007E6588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E1C8828AFFF05007E6588 /* AgriVision_MVPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E1C8928AFFF05007E6588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E1C9228AFFF05007E6588 /* AgriVision_MVPUITests.swift in Sources */,
+				046E1C9428AFFF05007E6588 /* AgriVision_MVPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046E1C8528AFFF05007E6588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046E1C6928AFFEFF007E6588 /* AgriVision-MVP */;
+			targetProxy = 046E1C8428AFFF05007E6588 /* PBXContainerItemProxy */;
+		};
+		046E1C8F28AFFF05007E6588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046E1C6928AFFEFF007E6588 /* AgriVision-MVP */;
+			targetProxy = 046E1C8E28AFFF05007E6588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046E1C7328AFFEFF007E6588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E1C7428AFFEFF007E6588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046E1C7B28AFFF04007E6588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E1C7C28AFFF04007E6588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046E1C9528AFFF05007E6588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046E1C9628AFFF05007E6588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046E1C9828AFFF05007E6588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AgriVision-MVP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabrina.AgriVision-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046E1C9928AFFF05007E6588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AgriVision-MVP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabrina.AgriVision-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046E1C9B28AFFF05007E6588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabrina.AgriVision-MVPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgriVision-MVP.app/AgriVision-MVP";
+			};
+			name = Debug;
+		};
+		046E1C9C28AFFF05007E6588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabrina.AgriVision-MVPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgriVision-MVP.app/AgriVision-MVP";
+			};
+			name = Release;
+		};
+		046E1C9E28AFFF05007E6588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabrina.AgriVision-MVPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AgriVision-MVP";
+			};
+			name = Debug;
+		};
+		046E1C9F28AFFF05007E6588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sabrina.AgriVision-MVPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AgriVision-MVP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046E1C6528AFFEFF007E6588 /* Build configuration list for PBXProject "AgriVision-MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E1C9528AFFF05007E6588 /* Debug */,
+				046E1C9628AFFF05007E6588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E1C9728AFFF05007E6588 /* Build configuration list for PBXNativeTarget "AgriVision-MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E1C9828AFFF05007E6588 /* Debug */,
+				046E1C9928AFFF05007E6588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E1C9A28AFFF05007E6588 /* Build configuration list for PBXNativeTarget "AgriVision-MVPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E1C9B28AFFF05007E6588 /* Debug */,
+				046E1C9C28AFFF05007E6588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E1C9D28AFFF05007E6588 /* Build configuration list for PBXNativeTarget "AgriVision-MVPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E1C9E28AFFF05007E6588 /* Debug */,
+				046E1C9F28AFFF05007E6588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046E1C7628AFFEFF007E6588 /* AgriVision_MVP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046E1C7728AFFEFF007E6588 /* AgriVision_MVP.xcdatamodel */,
+			);
+			currentVersion = 046E1C7728AFFEFF007E6588 /* AgriVision_MVP.xcdatamodel */;
+			path = AgriVision_MVP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046E1C6228AFFEFF007E6588 /* Project object */;
+}
